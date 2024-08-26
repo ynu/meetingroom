@@ -1,6 +1,6 @@
 {
   "name": "wecom-meetingroom",
-  "version": "2.3.0",
+  "version": "1.0.0",
   "description": "企业微信-会议室 SDK",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
