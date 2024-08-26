@@ -1,0 +1,34 @@
+{
+  "name": "wecom-meetingroom",
+  "version": "2.3.0",
+  "description": "企业微信-会议室 SDK",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "test": "mocha --timeout 10000 -r ts-node/register test/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynu/wecom-meetingroom.git"
+  },
+  "author": "na57@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ynu/wecom-meetingroom/issues"
+  },
+  "homepage": "https://github.com/ynu/wecom-meetingroom#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "debug": "^4.3.4",
+    "wecom-common": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.12",
+    "@types/memory-cache": "^0.2.5",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.14.2",
+    "assert": "^2.0.0",
+    "typescript": "^5.5.2"
+  }
+}
